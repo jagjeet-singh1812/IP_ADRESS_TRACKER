@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --dark: black;
+  --primary-color-0: #414141;
+  --primary-color-1: #252525;
+  --secondary-color: #ffffff;
+  --whitest: ivory;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--dark);
+}
+
+.HEADER {
+  width: 20vw;
+  margin: auto;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--primary-color-0);
+  font-family: "Nabla", cursive;
+  text-shadow: 3px 3px var(--primary-color-0);
+  text-align-last: center;
+}
+
+.container {
+  color: var(--whitest);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0 0 27vw;
+  border: 2px solid wheat;
+  border-radius: 50px;
+}
+
+button {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 2px solid aquamarine;
+  border-radius: 38px;
+}
+
+.button,
+.resetbutton {
+  display: flex;
+  justify-content: center;
+  width: 43vw;
+  font-size: 3rem;
+  border-radius: 40px;
+}
+
+button:hover {
+  background-color: aquamarine;
+  border: 2px solid #414141;
+  color: var(--primary-color-1);
+}
+.mx-14 {
+  margin: 14px 0px;
+}
+
+@media (max-width: 657px) {
+  .HEADER {
+    width: 41vw;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--primary-color-0);
+    font-family: "Nabla", cursive;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    border: 2px solid aqua;
+    border-radius: 112px;
+  }
+}
+
+.reset {
+  width: 106px;
+}
+.main_loader
+{
+    display: flex;
+    flex-direction: row;
+    margin:4px;
+}
+.loader
+{
+    width:10px;
+    height:35px;
+    background: #f5f6fa;
+
+}
